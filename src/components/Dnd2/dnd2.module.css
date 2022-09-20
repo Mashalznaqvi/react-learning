@@ -1,0 +1,90 @@
+.question:not(:empty) {
+    padding: 2rem;
+    margin-bottom: 0.375em;
+    background-color: #e9eff8;
+    border-radius: 7em;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.number {
+    font-weight: 300;
+    margin-right: 0.5em;
+}
+
+.options {
+    display: inline-block;
+
+    width: 8rem;
+    height: 5rem;
+
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.options li {
+    display: flex;
+    align-items: center;
+    border: solid 2px #d0d0d0;
+    border-radius: 0.2em;
+    padding: 0.5em 0.8em 0.5em 0.5em;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
+}
+
+.options p {
+    max-width: none;
+    font-weight: bold;
+}
+
+.options-thumb {
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 2em;
+    height: 2em;
+    background-color: #e8e8e8;
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+.options-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.DragBoard {
+    border: 2px solid black;
+    padding: 0.5rem 3.5rem;
+    transform: translateY(25%);
+    border-radius: 1rem;
+    outline: none;
+    position: relative;
+    top: 50%;
+    font-size: 1.5rem;
+}
+.DragBoard:focus {
+    outline: 1px solid #acabab;
+}
+
+.choiceBoard {
+    border: 2px solid black;
+    margin-bottom: 0.3rem;
+    min-width: 14rem;
+    min-height: 3rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #e8e8e8;
+}
+.choiceBoard:focus {
+    outline: 1px solid #acabab;
+}
+
+ul {
+    list-style-type: none;
+}

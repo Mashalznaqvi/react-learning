@@ -1,0 +1,64 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+.label {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.textbox {
+    margin-top: 2rem;
+    width: 18rem;
+    height: 4rem;
+    background: #eaeaea;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+.textbox:focus {
+    outline: 1px solid #acabab;
+}
+
+.textarea.input100 {
+    min-height: 169px;
+    padding: 19px 35px 0;
+}
+.input100 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 31px;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2;
+}
+.textarea {
+    width: 34rem;
+    height: 6rem;
+    background: #eaeaea;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+.textbox:focus {
+    outline: 1px solid #acabab;
+}
+
+.question {
+    font-weight: 450;
+    padding: 0.5rem;
+    margin-bottom: 0.375em;
+    background-color: #e9eff8;
+    border-radius: 7em;
+    font-size: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

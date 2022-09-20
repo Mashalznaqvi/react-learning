@@ -1,0 +1,17 @@
+.button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(59, 56, 56);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+}

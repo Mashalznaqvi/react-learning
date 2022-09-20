@@ -1,0 +1,50 @@
+.character {
+    width: 20rem;
+    position: absolute;
+}
+
+.character_animation_top {
+    animation: topcharacter 1s infinite;
+    -moz-animation: topcharacter 1s infinite; /* Firefox */
+    -webkit-animation: topcharacter 1s infinite; /* Safari and Chrome */
+}
+
+@keyframes topcharacter {
+    0% {
+        top: 6rem;
+    }
+    25% {
+        top: 5.9rem;
+    }
+    50% {
+        top: 5.8rem;
+    }
+    75% {
+        top: 5.9rem;
+    }
+    100% {
+        top: 6rem;
+    }
+}
+.character_animation_bottom {
+    animation: bottomcharacter 1s infinite;
+    -moz-animation: bottomcharacter 1s infinite; /* Firefox */
+    -webkit-animation: bottomcharacter 1s infinite; /* Safari and Chrome */
+}
+@keyframes bottomcharacter {
+    0% {
+        bottom: 6rem;
+    }
+    25% {
+        bottom: 5.9rem;
+    }
+    50% {
+        bottom: 5.8rem;
+    }
+    75% {
+        bottom: 5.9rem;
+    }
+    100% {
+        bottom: 6rem;
+    }
+}

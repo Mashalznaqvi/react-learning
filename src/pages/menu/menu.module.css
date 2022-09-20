@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/signup-bg.jpg');
+    background-size: cover;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 1rem;
+    background-color: #007a9c;
+    border-radius: 1rem;
+    color: white;
+}
+
+.character {
+    width: 20rem;
+    position: absolute;
+    right: 8rem;
+    top: 6rem;
+    transform: scaleX(-1) rotate(-8deg);
+    animation: mycharacter 1s infinite;
+    -moz-animation: mycharacter 1s infinite; /* Firefox */
+    -webkit-animation: mycharacter 1s infinite; /* Safari and Chrome */
+}
+@keyframes mycharacter {
+    0% {
+        top: 6rem;
+    }
+    25% {
+        top: 5.9rem;
+    }
+    50% {
+        top: 5.8rem;
+    }
+    75% {
+        top: 5.9rem;
+    }
+    100% {
+        top: 6rem;
+    }
+}
